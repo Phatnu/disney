@@ -25,7 +25,7 @@ import cer4 from '../assets/Certificate/Css.jpg';
 import cer5 from '../assets/Certificate/Responsive.jpg';
 import cer6 from '../assets/Certificate/Html.jpg';
 import cer7 from '../assets/Certificate/Bootstrap.jpg';
-import cer8 from '../assets/Certificate/Js1.jpg';
+import cer8 from '../assets/Certificate/js1.jpg';
 
 
 import AOS from "aos";
