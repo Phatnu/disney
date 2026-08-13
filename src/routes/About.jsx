@@ -66,24 +66,24 @@ const About = () => {
       
                     <div className="sm:flex-block lg:flex gap-2">
                       <a
-                        class="group relative inline-block text-sm sm:text-base md:text-lg font-medium text-white focus:ring-3 focus:outline-hidden mb-2 w-full text-center sm:mb-0 sm:w-auto"
+                        className="group relative inline-block text-sm sm:text-base md:text-lg font-medium text-white focus:ring-3 focus:outline-hidden mb-2 w-full text-center sm:mb-0 sm:w-auto"
                         href="#"
                       >
-                        <span class="absolute inset-0 border border-red-600"></span>
+                        <span className="absolute inset-0 border border-red-600"></span>
                         <span
-                          class="block border border-red-600 bg-red-600 px-8 sm:px-10 md:px-12 py-3 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1"
+                          className="block border border-red-600 bg-red-600 px-8 sm:px-10 md:px-12 py-3 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1"
                         >
                           CONTACT ME
                         </span>
                       </a>
       
                       <a
-                        class="group relative inline-block text-sm sm:text-base md:text-lg font-medium text-blue-600 focus:ring-3 focus:outline-hidden mb-2 w-full text-center sm:mb-0 sm:w-auto"
+                        className="group relative inline-block text-sm sm:text-base md:text-lg font-medium text-blue-600 focus:ring-3 focus:outline-hidden mb-2 w-full text-center sm:mb-0 sm:w-auto"
                         href="#"
                       >
-                        <span class="absolute inset-0 border border-current"></span>
+                        <span className="absolute inset-0 border border-current"></span>
                         <span
-                          class="block border border-current bg-white px-8 sm:px-10 md:px-12 py-3 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1"
+                          className="block border border-current bg-white px-8 sm:px-10 md:px-12 py-3 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1"
                         >
                           SEE PROJECTS
                         </span>

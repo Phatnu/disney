@@ -72,24 +72,24 @@ const Home = () => {
 
               <div className="sm:flex-block lg:flex gap-2">
                 <a
-                  class="group relative inline-block text-sm sm:text-base md:text-lg font-medium text-white focus:ring-3 focus:outline-hidden mb-2 w-full text-center sm:mb-0 sm:w-auto"
+                  className="group relative inline-block text-sm sm:text-base md:text-lg font-medium text-white focus:ring-3 focus:outline-hidden mb-2 w-full text-center sm:mb-0 sm:w-auto"
                   href="#"
                 >
-                  <span class="absolute inset-0 border border-red-600"></span>
+                  <span className="absolute inset-0 border border-red-600"></span>
                   <span
-                    class="block border border-red-600 bg-red-600 px-8 sm:px-10 md:px-12 py-3 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1"
+                    className="block border border-red-600 bg-red-600 px-8 sm:px-10 md:px-12 py-3 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1"
                   >
                     MY RATES
                   </span>
                 </a>
 
                 <a
-                  class="group relative inline-block text-sm sm:text-base md:text-lg font-medium text-blue-600 focus:ring-3 focus:outline-hidden mb-2 w-full text-center sm:mb-0 sm:w-auto"
+                  className="group relative inline-block text-sm sm:text-base md:text-lg font-medium text-blue-600 focus:ring-3 focus:outline-hidden mb-2 w-full text-center sm:mb-0 sm:w-auto"
                   href="#"
                 >
-                  <span class="absolute inset-0 border border-current"></span>
+                  <span className="absolute inset-0 border border-current"></span>
                   <span
-                    class="block border border-current bg-white px-8 sm:px-10 md:px-12 py-3 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1"
+                    className="block border border-current bg-white px-8 sm:px-10 md:px-12 py-3 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1"
                   >
                     SEE PROJECTS
                   </span>
@@ -135,24 +135,24 @@ const Home = () => {
 
               <div className="sm:flex-block lg:flex gap-2">
                 <a
-                  class="group relative inline-block text-sm sm:text-base md:text-lg font-medium text-white focus:ring-3 focus:outline-hidden mb-2 w-full text-center sm:mb-0 sm:w-auto"
+                  className="group relative inline-block text-sm sm:text-base md:text-lg font-medium text-white focus:ring-3 focus:outline-hidden mb-2 w-full text-center sm:mb-0 sm:w-auto"
                   href="#"
                 >
-                  <span class="absolute inset-0 border border-red-600"></span>
+                  <span className="absolute inset-0 border border-red-600"></span>
                   <span
-                    class="block border border-red-600 bg-red-600 px-8 sm:px-10 md:px-12 py-3 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1"
+                    className="block border border-red-600 bg-red-600 px-8 sm:px-10 md:px-12 py-3 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1"
                   >
                     MORE ABOUT ME
                   </span>
                 </a>
 
                 <a
-                  class="group relative inline-block text-sm sm:text-base md:text-lg font-medium text-blue-600 focus:ring-3 focus:outline-hidden mb-2 w-full text-center sm:mb-0 sm:w-auto"
+                  className="group relative inline-block text-sm sm:text-base md:text-lg font-medium text-blue-600 focus:ring-3 focus:outline-hidden mb-2 w-full text-center sm:mb-0 sm:w-auto"
                   href="#"
                 >
-                  <span class="absolute inset-0 border border-current"></span>
+                  <span className="absolute inset-0 border border-current"></span>
                   <span
-                    class="block border border-current bg-white px-8 sm:px-10 md:px-12 py-3 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1"
+                    className="block border border-current bg-white px-8 sm:px-10 md:px-12 py-3 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1"
                   >
                     VIEW TESTIMONIALS
                   </span>
@@ -176,12 +176,12 @@ const Home = () => {
                 I follow a structured, client-focused workflow to build websites that are fast, responsive, and aligned with your business goals. From discovery to launch, each stage is designed to ensure clarity, quality, and a smooth experience from start to finish.
               </p>
               <a
-                class="group relative inline-block text-sm sm:text-base md:text-lg font-medium text-white focus:ring-3 focus:outline-hidden mb-2 w-full text-center sm:mb-0 sm:w-auto"
+                className="group relative inline-block text-sm sm:text-base md:text-lg font-medium text-white focus:ring-3 focus:outline-hidden mb-2 w-full text-center sm:mb-0 sm:w-auto"
                 href="#"
               >
-                <span class="absolute inset-0 border border-red-600"></span>
+                <span className="absolute inset-0 border border-red-600"></span>
                 <span
-                  class="block border border-red-600 bg-red-600 px-8 sm:px-10 md:px-12 py-3 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1"
+                  className="block border border-red-600 bg-red-600 px-8 sm:px-10 md:px-12 py-3 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1"
                 >
                   CONTACT ME
                 </span>
@@ -391,24 +391,24 @@ const Home = () => {
                   <div>
                     <div className="sm:flex-block lg:flex gap-2 justify-center mt-15">
                       <a
-                        class="group relative inline-block text-sm sm:text-base md:text-lg font-medium text-white focus:ring-3 focus:outline-hidden mb-2 w-full text-center sm:mb-0 sm:w-auto"
+                        className="group relative inline-block text-sm sm:text-base md:text-lg font-medium text-white focus:ring-3 focus:outline-hidden mb-2 w-full text-center sm:mb-0 sm:w-auto"
                         href="#"
                       >
-                        <span class="absolute inset-0 border border-red-600"></span>
+                        <span className="absolute inset-0 border border-red-600"></span>
                         <span
-                          class="block border border-red-600 bg-red-600 px-8 sm:px-10 md:px-12 py-3 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1"
+                          className="block border border-red-600 bg-red-600 px-8 sm:px-10 md:px-12 py-3 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1"
                         >
                           CONTACT ME
                         </span>
                       </a>
 
                       <a
-                        class="group relative inline-block text-sm sm:text-base md:text-lg font-medium text-blue-600 focus:ring-3 focus:outline-hidden mb-2 w-full text-center sm:mb-0 sm:w-auto"
+                        className="group relative inline-block text-sm sm:text-base md:text-lg font-medium text-blue-600 focus:ring-3 focus:outline-hidden mb-2 w-full text-center sm:mb-0 sm:w-auto"
                         href="#"
                       >
-                        <span class="absolute inset-0 border border-current"></span>
+                        <span className="absolute inset-0 border border-current"></span>
                         <span
-                          class="block border border-current bg-white px-8 sm:px-10 md:px-12 py-3 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1"
+                          className="block border border-current bg-white px-8 sm:px-10 md:px-12 py-3 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1"
                         >
                           ABOUT ME
                         </span>
@@ -452,12 +452,12 @@ const Home = () => {
 
               <div className="sm:flex-block lg:flex gap-2">
                 <a
-                  class="group relative inline-block text-sm sm:text-base md:text-lg font-medium text-white focus:ring-3 focus:outline-hidden mb-2 w-full text-center sm:mb-0 sm:w-auto"
+                  className="group relative inline-block text-sm sm:text-base md:text-lg font-medium text-white focus:ring-3 focus:outline-hidden mb-2 w-full text-center sm:mb-0 sm:w-auto"
                   href="#"
                 >
-                  <span class="absolute inset-0 border border-red-600"></span>
+                  <span className="absolute inset-0 border border-red-600"></span>
                   <span
-                    class="block border border-red-600 bg-red-600 px-8 sm:px-10 md:px-12 py-3 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1"
+                    className="block border border-red-600 bg-red-600 px-8 sm:px-10 md:px-12 py-3 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1"
                   >
                     SEE PROJECTS
                   </span>
@@ -551,7 +551,7 @@ const Home = () => {
                           <img
                             src={html}  // Replace with your image URL
                             alt="HTML"
-                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classes for margin, centering, and rounded corners
+                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classNamees for margin, centering, and rounded corners
                           />
 
                         </div>
@@ -560,7 +560,7 @@ const Home = () => {
                           <img
                             src={css}  // Replace with your image URL
                             alt="HTML"
-                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classes for margin, centering, and rounded corners
+                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classNamees for margin, centering, and rounded corners
                           />
 
                         </div>
@@ -570,7 +570,7 @@ const Home = () => {
                           <img
                             src={js}  // Replace with your image URL
                             alt="HTML"
-                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classes for margin, centering, and rounded corners
+                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classNamees for margin, centering, and rounded corners
                           />
 
                         </div>
@@ -579,7 +579,7 @@ const Home = () => {
                           <img
                             src={tailwind}  // Replace with your image URL
                             alt="HTML"
-                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classes for margin, centering, and rounded corners
+                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classNamees for margin, centering, and rounded corners
                           />
 
                         </div>
@@ -588,7 +588,7 @@ const Home = () => {
                           <img
                             src={bootstrap}  // Replace with your image URL
                             alt="HTML"
-                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classes for margin, centering, and rounded corners
+                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classNamees for margin, centering, and rounded corners
                           />
 
                         </div>
@@ -597,7 +597,7 @@ const Home = () => {
                           <img
                             src={csharp}  // Replace with your image URL
                             alt="HTML"
-                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classes for margin, centering, and rounded corners
+                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classNamees for margin, centering, and rounded corners
                           />
 
                         </div>
@@ -606,7 +606,7 @@ const Home = () => {
                           <img
                             src={mssql}  // Replace with your image URL
                             alt="HTML"
-                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classes for margin, centering, and rounded corners
+                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classNamees for margin, centering, and rounded corners
                           />
 
                         </div>
@@ -615,7 +615,7 @@ const Home = () => {
                           <img
                             src={asp}  // Replace with your image URL
                             alt="HTML"
-                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classes for margin, centering, and rounded corners
+                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classNamees for margin, centering, and rounded corners
                           />
 
                         </div>
@@ -629,7 +629,7 @@ const Home = () => {
                           <img
                             src={wordpress}  // Replace with your image URL
                             alt="HTML"
-                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classes for margin, centering, and rounded corners
+                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classNamees for margin, centering, and rounded corners
                           />
 
                         </div>
@@ -638,7 +638,7 @@ const Home = () => {
                           <img
                             src={figma}  // Replace with your image URL
                             alt="HTML"
-                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classes for margin, centering, and rounded corners
+                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classNamees for margin, centering, and rounded corners
                           />
 
                         </div>
@@ -648,7 +648,7 @@ const Home = () => {
                           <img
                             src={photoshop}  // Replace with your image URL
                             alt="HTML"
-                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classes for margin, centering, and rounded corners
+                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classNamees for margin, centering, and rounded corners
                           />
 
                         </div>
@@ -657,7 +657,7 @@ const Home = () => {
                           <img
                             src={capcut}  // Replace with your image URL
                             alt="HTML"
-                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classes for margin, centering, and rounded corners
+                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classNamees for margin, centering, and rounded corners
                           />
 
                         </div>
@@ -666,7 +666,7 @@ const Home = () => {
                           <img
                             src={php}  // Replace with your image URL
                             alt="HTML"
-                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classes for margin, centering, and rounded corners
+                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classNamees for margin, centering, and rounded corners
                           />
 
                         </div>
@@ -675,7 +675,7 @@ const Home = () => {
                           <img
                             src={mysql}  // Replace with your image URL
                             alt="HTML"
-                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classes for margin, centering, and rounded corners
+                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classNamees for margin, centering, and rounded corners
                           />
 
                         </div>
@@ -684,7 +684,7 @@ const Home = () => {
                           <img
                             src={canva}  // Replace with your image URL
                             alt="HTML"
-                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classes for margin, centering, and rounded corners
+                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classNamees for margin, centering, and rounded corners
                           />
 
                         </div>
@@ -693,7 +693,7 @@ const Home = () => {
                           <img
                             src={visual}  // Replace with your image URL
                             alt="HTML"
-                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classes for margin, centering, and rounded corners
+                            className="mt-6 mx-auto p-5 rounded-lg shadow-md" // Tailwind classNamees for margin, centering, and rounded corners
                           />
 
                         </div>
