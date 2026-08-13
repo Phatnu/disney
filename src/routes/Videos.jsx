@@ -3,28 +3,18 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Techimage from '../assets/tech_bg.jpg';
 import { IoIosStar } from 'react-icons/io';
-import vid1 from '../assets/Videos/vid1.mp4';
-import vid2 from '../assets/Videos/vid2.mp4';
-import vid3 from '../assets/Videos/vid3.mp4';
-import vid4 from '../assets/Videos/vid4.mp4';
-import vid5 from '../assets/Videos/vid5.mp4';
-import vid6 from '../assets/Videos/vid6.mp4';
-import vid7 from '../assets/Videos/vid7.mp4';
-import vid8 from '../assets/Videos/vid8.mp4';
-import vid9 from '../assets/Videos/vid9.mp4';
-import vid10 from '../assets/Videos/vid10.mp4';
 
 const videos = [
-  { title: 'Video Sample 1', src: vid1 },
-  { title: 'Video Sample 2', src: vid2 },
-  { title: 'Video Sample 3', src: vid3 },
-  { title: 'Video Sample 4', src: vid4 },
-  { title: 'Video Sample 5', src: vid5 },
-  { title: 'Video Sample 6', src: vid6 },
-  { title: 'Video Sample 7', src: vid7 },
-  { title: 'Video Sample 8', src: vid8 },
-  { title: 'Video Sample 9', src: vid9 },
-  { title: 'Video Sample 10', src: vid10 },
+  { title: 'Video Sample 1', src: "https://res.cloudinary.com/jnjyxhdz/video/upload/v1786632290/vid1.mp4" },
+  { title: 'Video Sample 2', src: "https://res.cloudinary.com/jnjyxhdz/video/upload/v1786633706/vid2.mp4" },
+  { title: 'Video Sample 3', src: "https://res.cloudinary.com/jnjyxhdz/video/upload/v1786633748/vid3.mp4" },
+  { title: 'Video Sample 4', src: "https://res.cloudinary.com/jnjyxhdz/video/upload/v1786633748/vid4.mp4" },
+  { title: 'Video Sample 5', src: "https://res.cloudinary.com/jnjyxhdz/video/upload/v1786633748/vid5.mp4" },
+  { title: 'Video Sample 6', src: "https://res.cloudinary.com/jnjyxhdz/video/upload/v1786633748/vid6.mp4" },
+  { title: 'Video Sample 7', src: "https://res.cloudinary.com/jnjyxhdz/video/upload/v1786633748/vid7.mp4" },
+  { title: 'Video Sample 8', src: "https://res.cloudinary.com/jnjyxhdz/video/upload/v1786633748/vid8.mp4" },
+  { title: 'Video Sample 9', src: "https://res.cloudinary.com/jnjyxhdz/video/upload/v1786633748/vid9.mp4" },
+  { title: 'Video Sample 10', src: "https://res.cloudinary.com/jnjyxhdz/video/upload/v1786633748/vid10.mp4" },
 ];
 
 const Videos = () => {
