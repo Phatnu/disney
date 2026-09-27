@@ -312,7 +312,7 @@ const Footer = () => {
                   />
                 </svg>
 
-                <span className="flex-1 text-gray-700 dark:text-gray-300">0123456789</span>
+                <span className="flex-1 text-gray-700 dark:text-gray-300">+69364967582</span>
               </a>
             </li>
 
@@ -340,7 +340,7 @@ const Footer = () => {
               </svg>
 
               <address className="-mt-0.5 flex-1 text-gray-700 not-italic dark:text-gray-300">
-                213 Lane, London, United Kingdom
+                Calumpit, Bulacan, Philippines
               </address>
             </li>
           </ul>
