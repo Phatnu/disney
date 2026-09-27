@@ -45,11 +45,11 @@ const Navbar = () => {
         <div className="gap-4 mx-auto flex h-8 max-w-screen-xl items-center justify-end px-4 sm:px-6 lg:px-8">
           <p className="text-stone-50 flex items-center gap-2" style={{ fontFamily: '"Rubik", sans-serif' }}>
             <MdEmail size={18} />
-            cuetop175@gmail.com
+            cuetopatrick91@gmail.com
           </p>
           <p className="text-stone-50 flex items-center gap-2" style={{ fontFamily: '"Rubik", sans-serif' }}>
             <FaPhoneSquare size={18} />
-            +6912345678
+            +69364967582
           </p>
           <FaSquareFacebook color="white" size={18} />
           <FaInstagramSquare color="white" size={18} />
