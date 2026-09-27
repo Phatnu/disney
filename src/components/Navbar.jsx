@@ -5,7 +5,7 @@ import { FaPhoneSquare } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaXTwitter } from "react-icons/fa6";
 
 const Navbar = () => {
   const [isProjectsOpen, setIsProjectsOpen] = useState(false);
@@ -51,9 +51,18 @@ const Navbar = () => {
             <FaPhoneSquare size={18} />
             +69364967582
           </p>
-          <FaSquareFacebook color="white" size={18} />
-          <FaInstagramSquare color="white" size={18} />
-          <FaLinkedin color="white" size={18} />
+          <a href="https://www.facebook.com/cuetopat" aria-label="Facebook" target="_blank" rel="noreferrer">
+            <FaSquareFacebook color="white" size={18} />
+          </a>
+          <a href="https://www.instagram.com/patrickcueto019/" aria-label="Instagram" target="_blank" rel="noreferrer">
+            <FaInstagramSquare color="white" size={18} />
+          </a>
+          <a href="https://github.com/Phatnu" aria-label="GitHub" target="_blank" rel="noreferrer">
+            <FaGithub color="white" size={18} />
+          </a>
+          <a href="https://x.com/PatrickCueto6" aria-label="X (Twitter)" target="_blank" rel="noreferrer">
+            <FaXTwitter color="white" size={18} />
+          </a>
         </div>
       </div>
 

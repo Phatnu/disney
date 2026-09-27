@@ -64,7 +64,7 @@ const Footer = () => {
         <ul className="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
           <li>
             <a
-              href="#"
+              href="https://www.facebook.com/cuetopat"
               rel="noreferrer"
               target="_blank"
               className="text-red-500 transition hover:text-red-500 dark:text-stone-50 dark:hover:text-red-500"
@@ -82,7 +82,7 @@ const Footer = () => {
 
           <li>
             <a
-              href="#"
+              href="https://www.instagram.com/patrickcueto019/"
               rel="noreferrer"
               target="_blank"
               className="text-red-500 transition hover:text-red-500 dark:text-stone-50 dark:hover:text-red-500"
@@ -100,7 +100,7 @@ const Footer = () => {
 
           <li>
             <a
-              href="#"
+              href="https://x.com/PatrickCueto6"
               rel="noreferrer"
               target="_blank"
                className="text-red-500 transition hover:text-red-500 dark:text-stone-50 dark:hover:text-red-500"
@@ -116,7 +116,7 @@ const Footer = () => {
 
           <li>
             <a
-              href="#"
+              href="https://github.com/Phatnu"
               rel="noreferrer"
               target="_blank"
               className="text-red-500 transition hover:text-red-500 dark:text-stone-50 dark:hover:text-red-500"

@@ -1,6 +1,6 @@
 import React from 'react'
 import Texturebg from '../assets/texture_bg2.jpg';
-import { FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn, FaTiktok, FaYoutube, FaEnvelope, FaMessage, FaWhatsapp } from 'react-icons/fa6';
+import { FaFacebookF, FaGithub, FaInstagram, FaXTwitter, FaTiktok, FaYoutube, FaEnvelope, FaMessage, FaWhatsapp } from 'react-icons/fa6';
 
 const Contact = () => {
     return (
@@ -60,7 +60,7 @@ const Contact = () => {
                                     { icon: FaFacebookF, label: 'Facebook', href: 'https://www.facebook.com/cuetopat' },
                                     { icon: FaGithub, label: 'GitHub', href: 'https://github.com/Phatnu' },
                                     { icon: FaInstagram, label: 'Instagram', href: 'https://www.instagram.com/patrickcueto019/' },
-                                    { icon: FaLinkedinIn, label: 'LinkedIn', href: 'https://www.linkedin.com/in/patrick-cueto-regalado-8a2b4b1a9/' },
+                                    { icon: FaXTwitter, label: 'X (Twitter)', href: 'https://x.com/PatrickCueto6' },
                                     { icon: FaTiktok, label: 'TikTok', href: 'https://www.tiktok.com/@_patrickregalado?is_from_webapp=1&sender_device=pc' },
                                     { icon: FaYoutube, label: 'YouTube', href: 'https://www.youtube.com/@patrickcueto9207' },
                                 ].map(({ icon: Icon, label, href }) => (
