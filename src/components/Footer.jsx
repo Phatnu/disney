@@ -9,9 +9,9 @@ const Footer = () => {
 <footer style={{ backgroundImage: `url(${bgfooter})` }} className="bg-white dark:bg-stone-900 bg-cover">
 
   <div className="h-auto w-full flex justify-center items-center"> 
-    <div style={{ backgroundImage: `url(${Texturebg})` }} className='shadow- shadow-neutral-400 bg-cover bg-center bg-no-repeat flex justify-center items-center h-full w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-[-5rem] sm:mt-[0rem] md:mt-[-5rem] lg:mt-[-7rem]'>
+    <div style={{ backgroundImage: `url(${Texturebg})` }} className='shadow- shadow-neutral-400 bg-cover bg-center bg-no-repeat flex justify-center items-center h-full w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-0 md:-mt-20 lg:-mt-28'>
                  <div className='text-center my-10'>
-                   <h2 className="text-5xl mb-4" style={{ fontFamily: '"Anton", sans-serif' }}>READY TO WORK TOGETHER?</h2>
+                   <h2 className="mb-4 text-3xl sm:text-4xl lg:text-5xl" style={{ fontFamily: '"Anton", sans-serif' }}>READY TO WORK TOGETHER?</h2>
                    <p className="text-gray-700 mb-4" style={{ fontFamily: '"Rubik", sans-serif' }}>
                  Tell me about your project
                    </p>
@@ -288,7 +288,7 @@ const Footer = () => {
                   />
                 </svg>
 
-                <span className="flex-1 text-gray-700 dark:text-gray-300"> cuetopatrick91@gmail.com </span>
+                <span className="min-w-0 flex-1 break-all text-gray-700 dark:text-gray-300"> cuetopatrick91@gmail.com </span>
               </a>
             </li>
 

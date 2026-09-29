@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <div className="min-h-screen flex flex-col bg-white-50">
+      <div className="min-h-screen flex flex-col overflow-x-clip bg-white-50">
 <Navbar />
 <Routes>
 <Route path='/' element={<Home />} />

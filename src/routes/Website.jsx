@@ -46,9 +46,9 @@ const Website = () => {
       });
     }, []);
   return (
-     <div className='mt-30'>
+    <div className='mt-28'>
             {/* You can add content here SECTION 1*/
-              <div style={{ backgroundImage: `url(${bgImage})` }} className="bg-cover bg-center h-auto w-full p-10 lg:p-20">
+              <div style={{ backgroundImage: `url(${bgImage})` }} className="bg-cover bg-center h-auto w-full p-5 sm:p-8 lg:p-20">
                 <div className="flex flex-col lg:flex-row gap-4 items-center">
                   <div data-aos="fade-right" className="flex-1 p-3">
                     <div className='flex text-yellow-300 mb-2'>
@@ -61,7 +61,7 @@ const Website = () => {
                     <div className='flex mb-2' style={{ fontFamily: '"Rubik", sans-serif' }}>
            Recent Project
                     </div>
-                    <h1 className='text-6xl mb-5' style={{ fontFamily: '"Anton", sans-serif' }}>
+                    <h1 className='text-4xl sm:text-5xl lg:text-6xl mb-5' style={{ fontFamily: '"Anton", sans-serif' }}>
                       Barangay Management System – Custom PHP Web Application
                     </h1>
                     <div className='flex mb-5' style={{ fontFamily: '"Rubik", sans-serif' }}>
@@ -70,12 +70,12 @@ A responsive web app built with PHP, MySQL, JavaScript, and Bootstrap to streaml
       
                     <div className="sm:flex-block lg:flex gap-2">
                       <a
-                        class="group relative inline-block text-sm sm:text-base md:text-lg font-medium text-white focus:ring-3 focus:outline-hidden mb-2 w-full text-center sm:mb-0 sm:w-auto"
+                        className="group relative inline-block text-sm sm:text-base md:text-lg font-medium text-white focus:ring-3 focus:outline-hidden mb-2 w-full text-center sm:mb-0 sm:w-auto"
                         href="#"
                       >
-                        <span class="absolute inset-0 border border-red-600"></span>
+                        <span className="absolute inset-0 border border-red-600"></span>
                         <span
-                          class="block border border-red-600 bg-red-600 px-8 sm:px-10 md:px-12 py-3 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1"
+                          className="block border border-red-600 bg-red-600 px-8 sm:px-10 md:px-12 py-3 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1"
                         >
                          Get A Quote
                         </span>
@@ -86,9 +86,9 @@ A responsive web app built with PHP, MySQL, JavaScript, and Bootstrap to streaml
       
                   </div>
       
-                  <div className="flex-2 justify-end p-4">
+                  <div className="flex-1 min-w-0 justify-end p-2 sm:p-4">
                     <div data-aos="fade-left" data-hs="flip-up" className='flex justify-end'>
-                      <img src={barangay} alt="logo" className="h-40 md:h-110 " />
+                      <img src={barangay} alt="logo" className="h-auto max-h-64 max-w-full object-contain md:max-h-96 lg:max-h-[27.5rem]" />
                     </div>
       
                   </div>
@@ -97,7 +97,7 @@ A responsive web app built with PHP, MySQL, JavaScript, and Bootstrap to streaml
               </div>
             }
            {/* You can add content here SECTION 4*/
-             <div className="bg-cover bg-[#f1f1f1] bg-center h-auto w-full p-10 lg:p-20">
+             <div className="bg-cover bg-[#f1f1f1] bg-center h-auto w-full p-4 sm:p-8 lg:p-20">
      
                <div className="gap-6 text-center items-start p-1  from-white to-gray-100">
                  {/* WIDE COLUMN (Text & Button) */}
@@ -105,7 +105,7 @@ A responsive web app built with PHP, MySQL, JavaScript, and Bootstrap to streaml
                      <p className="text-gray-700 mb-4" style={{ fontFamily: '"Rubik", sans-serif' }}>
                     Web Development Projects
                    </p>
-                   <h2 className="text-5xl mb-4" style={{ fontFamily: '"Anton", sans-serif' }}>CREATIVE SHOWCASE</h2>
+                   <h2 className="text-3xl sm:text-4xl lg:text-5xl mb-4" style={{ fontFamily: '"Anton", sans-serif' }}>CREATIVE SHOWCASE</h2>
                    <p className="text-gray-700 mb-4" style={{ fontFamily: '"Rubik", sans-serif' }}>
                      Explore some of the websites I’ve designed and developed, each tailored to meet the unique needs of my clients. These mockups highlight my commitment to quality, creativity, and functionality.
                    </p>
@@ -114,7 +114,7 @@ A responsive web app built with PHP, MySQL, JavaScript, and Bootstrap to streaml
                     {/* SECTION1 */}
                    <section className="pt-10">
                      <div className="max-w-10xl mx-auto px-1">
-                       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
+                       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-2">
      
                          {/* CARD 1 KO*/}  
                          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className="bg-white rounded-lg shadow text-center">
@@ -214,7 +214,7 @@ A responsive web app built with PHP, MySQL, JavaScript, and Bootstrap to streaml
                   {/* SECTION 2 */}      
                   <section className="pt-10">
                      <div className="max-w-10xl mx-auto px-1">
-                       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
+                       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-2">
      
                          {/* CARD 1 KO*/}  
                          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className="bg-white rounded-lg shadow text-center">
@@ -317,7 +317,7 @@ A responsive web app built with PHP, MySQL, JavaScript, and Bootstrap to streaml
                   <section className="pt-10">
                      <div className="max-w-10xl mx-auto px-1">
                       
-                       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
+                       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-2">
      
    
                          {/* CARD 2 KO*/}
@@ -383,18 +383,18 @@ A responsive web app built with PHP, MySQL, JavaScript, and Bootstrap to streaml
            }
 
            {/* You can add content here SECTION 5*/
-             <div className="bg-cover bg-stone-50 bg-center h-auto w-full lg:pb-[10rem] p-10 lg:p-20">
+             <div className="bg-cover bg-stone-50 bg-center h-auto w-full lg:pb-[10rem] p-4 sm:p-8 lg:p-20">
                       <div className='text-center mb-10'>
-                   <h2 className="text-5xl mb-4" style={{ fontFamily: '"Anton", sans-serif' }}>Real-World Mobile Views</h2>
+                   <h2 className="text-3xl sm:text-4xl lg:text-5xl mb-4" style={{ fontFamily: '"Anton", sans-serif' }}>Real-World Mobile Views</h2>
                    <p className="text-gray-700 mb-4" style={{ fontFamily: '"Rubik", sans-serif' }}>
                  Here’s a glimpse of how my custom web applications and designs come to life on mobile devices. These mobile previews reflect my commitment to responsive, user-friendly, and high-performance web solutions — ensuring that every site functions flawlessly across all screen sizes.
                    </p>
                  </div>
 
 
-            <div className='grid grid-1 sm:grid-cols-1 md-grid-cols2 lg:grid-cols-5 gap-10'>
+            <div className='grid grid-cols-2 gap-4 sm:gap-6 md:grid-cols-3 lg:grid-cols-5 lg:gap-10'>
                <div className="p-0 ">
-    <img hover:animate-pulse data-aos="fade-left"
+    <img data-aos="fade-left"
      data-aos-delay="300"
       src={phone1}
       alt="Image1"
@@ -438,9 +438,9 @@ data-aos-delay="1500"
   
             </div>
 
-           <div className='grid grid-1 sm:grid-cols-1 md-grid-cols2 lg:grid-cols-5 gap-10 mt-10'>
+           <div className='grid grid-cols-2 gap-4 sm:gap-6 md:grid-cols-3 lg:grid-cols-5 lg:gap-10 mt-10'>
                <div className="p-0 ">
-    <img hover:animate-pulse data-aos="fade-left"
+    <img data-aos="fade-left"
      data-aos-delay="300"
       src={phone6}
       alt="Image1"
@@ -485,9 +485,9 @@ data-aos-delay="1500"
             </div>
 
 
-           <div className='grid grid-1 sm:grid-cols-1 md-grid-cols2 lg:grid-cols-5 gap-10 mt-10'>
+           <div className='grid grid-cols-2 gap-4 sm:gap-6 md:grid-cols-3 lg:grid-cols-5 lg:gap-10 mt-10'>
                <div className="p-0 ">
-    <img hover:animate-pulse data-aos="fade-left"
+    <img data-aos="fade-left"
      data-aos-delay="300"
       src={phone3}
       alt="Image1"

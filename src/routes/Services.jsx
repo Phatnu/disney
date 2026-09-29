@@ -173,7 +173,7 @@ const Services = () => {
   ];
 
   return (
-    <div className="mt-25">
+    <div className="mt-28">
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
         {/* Hero Section */}
         <div
@@ -182,12 +182,12 @@ const Services = () => {
         >
           <div className="absolute inset-0 bg-black bg-opacity-70"></div>
 
-          <div className="relative max-w-7xl mx-auto px-6 py-24 text-center">
+          <div className="relative mx-auto max-w-7xl px-4 py-14 text-center sm:px-6 sm:py-20 md:py-24">
             <span className="bg-red-600 px-4 py-2 rounded-full text-sm font-semibold mb-4 inline-block">
               PROFESSIONAL SERVICES
             </span>
 
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+            <h1 className="mb-6 text-4xl font-bold leading-tight sm:text-5xl md:text-6xl">
               Transform Your Business <br />
               <span className="text-red-600">With Expert Solutions</span>
             </h1>
@@ -251,7 +251,7 @@ const Services = () => {
         </div>
 
         {/* Process */}
-        <div className="bg-gray-50 py-20 pb-60">
+        <div className="bg-gray-50 py-14 pb-24 sm:py-20 md:pb-60">
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">

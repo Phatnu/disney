@@ -42,12 +42,12 @@ const Navbar = () => {
     <header className="fixed top-0 left-0 w-full z-50">
       {/* Top Contact Bar */}
       <div className="w-full bg-zinc-950 dark:bg-zinc-950">
-        <div className="gap-4 mx-auto flex h-8 max-w-screen-xl items-center justify-end px-4 sm:px-6 lg:px-8">
-          <p className="text-stone-50 flex items-center gap-2" style={{ fontFamily: '"Rubik", sans-serif' }}>
+        <div className="mx-auto flex h-8 max-w-screen-xl items-center justify-center gap-4 px-4 sm:justify-end sm:px-6 lg:px-8">
+          <p className="hidden items-center gap-2 text-stone-50 lg:flex" style={{ fontFamily: '"Rubik", sans-serif' }}>
             <MdEmail size={18} />
             cuetopatrick91@gmail.com
           </p>
-          <p className="text-stone-50 flex items-center gap-2" style={{ fontFamily: '"Rubik", sans-serif' }}>
+          <p className="hidden items-center gap-2 text-stone-50 lg:flex" style={{ fontFamily: '"Rubik", sans-serif' }}>
             <FaPhoneSquare size={18} />
             +69364967582
           </p>
@@ -76,7 +76,7 @@ const Navbar = () => {
           </Link>
 
           {/* Desktop Menu + Button */}
-          <div className="hidden md:flex items-center gap-6">
+          <div className="hidden lg:flex items-center gap-6">
             <nav aria-label="Global">
               <ul className="flex items-center gap-6 text-sm" style={{ fontFamily: '"Rubik", sans-serif' }}>
                 {['home', 'about','services', 'contact'].map((page) => (
@@ -131,7 +131,7 @@ const Navbar = () => {
           </div>
 
           {/* Mobile Burger Button */}
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <button
               onClick={toggleMenu}
               className="block rounded-sm bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75 dark:bg-gray-800 dark:text-white dark:hover:text-red-500"
@@ -154,7 +154,7 @@ const Navbar = () => {
         {/* Mobile Menu */}
         <nav
           ref={mobileMenuRef}
-          className="overflow-hidden max-h-0 transition-[max-height] duration-500 ease-in-out md:hidden bg-white dark:bg-stone-900"
+          className="overflow-hidden max-h-0 transition-[max-height] duration-500 ease-in-out lg:hidden bg-white dark:bg-stone-900"
         >
           <ul className="flex flex-col gap-4 p-4 text-gray-700 dark:text-white">
             {['home', 'about', 'services', 'contact'].map((page) => (

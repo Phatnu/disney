@@ -41,8 +41,8 @@ const About = () => {
   }, []);
 
   return (
-        <div className='mt-15'>
-              <div style={{ backgroundImage: `url(${Techimage})` }} className="bg-cover bg-fixed bg-center h-70vh w-full p-10 lg:p-20">
+          <div className='mt-28'>
+            <div style={{ backgroundImage: `url(${Techimage})` }} className="bg-cover bg-scroll md:bg-fixed bg-center h-auto w-full p-5 sm:p-8 lg:p-20">
                 <div className="flex flex-col md:flex-row gap-4 items-center">
       
                   <div className="flex-1 p-3">
@@ -57,7 +57,7 @@ const About = () => {
                       <IoIosStar size={27} />
                       <IoIosStar size={27} />
                     </div>
-                    <h1 className='text-6xl mb-5 text-stone-50' style={{ fontFamily: '"Anton", sans-serif' }}>
+                    <h1 className='text-4xl sm:text-5xl lg:text-6xl mb-5 text-stone-50' style={{ fontFamily: '"Anton", sans-serif' }}>
                       I'M PATRICK CUETO, YOUR ONE-STOP DEVELOPER.
                     </h1>
                     <div className='flex mb-5 text-stone-50' style={{ fontFamily: '"Rubik", sans-serif' }}>
@@ -96,10 +96,10 @@ const About = () => {
               </div>
 
 
-                <div style={{ backgroundImage: `url(${rmbg})` }} className="bg-cover bg-fixed bg-center h-70vh w-full p-10 lg:p-20 mb-0">
+                <div style={{ backgroundImage: `url(${rmbg})` }} className="bg-cover bg-scroll md:bg-fixed bg-center h-auto w-full p-4 sm:p-8 lg:p-20 mb-0">
 
 <div className="max-w-6xl mx-auto mt-0 p-6">
-<div className="bg-white p-10 md:p-16 shadow-xl">
+<div className="bg-white p-5 sm:p-8 md:p-16 shadow-xl">
 
   <div className="flex flex-col md:flex-row items-center md:items-start gap-10">
 
@@ -119,7 +119,7 @@ const About = () => {
 
       {/* Name + Location */}
       <div>
-        <h1 className="text-4xl font-bold flex items-center gap-2">
+        <h1 className="flex items-center gap-2 text-2xl font-bold sm:text-4xl">
           Patrick Cueto  
           <BsPatchCheckFill className="text-blue-500 text-2xl" />
         </h1>
@@ -177,7 +177,7 @@ const About = () => {
 
 
 
-  <div className="bg-white shadow-xl grid grid-cols-1 md:grid-cols-1 gap-10 p-20 items-center mt-10 mb-10">
+  <div className="bg-white shadow-xl grid grid-cols-1 gap-10 p-5 sm:p-8 md:p-12 lg:p-20 items-center mt-10 mb-10">
       <h2 className="text-3xl font-bold text-start mb-0">My Journey</h2>
   <div className="mx-auto relative border-l border-gray-300">
 
@@ -216,7 +216,7 @@ Currently working as a Freelance Web and WordPress Developer, delivering modern,
   </div>
 
 {/* CERTIFICATE START */}
-<div className="pb-15 bg-white ">
+<div className="bg-white pb-10 sm:pb-15">
   <div className="max-w-7xl mx-auto">
 
     {/* Title & Description */}

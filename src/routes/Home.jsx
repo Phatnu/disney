@@ -48,9 +48,9 @@ const Home = () => {
     });
   }, []);
   return (
-    <div className='mt-20'>
+    <div className='mt-28'>
       {/* You can add content here SECTION 1*/
-        <div style={{ backgroundImage: `url(${bgImage})` }} className="bg-cover bg-center h-auto w-full p-10 lg:p-20">
+        <div style={{ backgroundImage: `url(${bgImage})` }} className="bg-cover bg-center h-auto w-full p-5 sm:p-8 lg:p-20">
           <div className="flex flex-col md:flex-row gap-4 items-center">
             <div data-aos="fade-right" className="flex-1 p-3">
               <div className='flex text-yellow-300 mb-2'>
@@ -63,7 +63,7 @@ const Home = () => {
               <div className='flex mb-2' style={{ fontFamily: '"Rubik", sans-serif' }}>
                 Design {'>'} Development {'>'} Optimization
               </div>
-              <h1 className='text-6xl mb-5' style={{ fontFamily: '"Anton", sans-serif' }}>
+              <h1 className='text-4xl sm:text-5xl lg:text-6xl mb-5' style={{ fontFamily: '"Anton", sans-serif' }}>
                 WEBSITE WORDPRESS<br></br> DEVELOPER
               </h1>
               <div className='flex mb-5' style={{ fontFamily: '"Rubik", sans-serif' }}>
@@ -99,9 +99,9 @@ const Home = () => {
 
             </div>
 
-            <div className="flex-1 justify-end p-4">
+              <div className="flex-1 min-w-0 justify-end p-2 sm:p-4">
               <div data-aos="fade-left" data-hs="flip-up" className='flex justify-end'>
-                <img src={Projectiamge} alt="logo" className="h-70 md:h-150 " />
+                <img src={Projectiamge} alt="logo" className="h-56 max-w-full object-contain sm:h-80 md:h-120 lg:h-150" />
               </div>
 
             </div>
@@ -111,7 +111,7 @@ const Home = () => {
       }
 
       {/* You can add content here SECTION 2*/
-        <div style={{ backgroundImage: `url(${Techimage})` }} className="bg-cover bg-fixed bg-center h-70vh w-full p-10 lg:p-20">
+        <div style={{ backgroundImage: `url(${Techimage})` }} className="bg-cover bg-scroll md:bg-fixed bg-center h-auto w-full p-5 sm:p-8 lg:p-20">
           <div className="flex flex-col md:flex-row gap-4 items-center">
 
             <div className="flex-1 p-3">
@@ -126,7 +126,7 @@ const Home = () => {
                 <IoIosStar size={27} />
                 <IoIosStar size={27} />
               </div>
-              <h1 className='text-6xl mb-5 text-stone-50' style={{ fontFamily: '"Anton", sans-serif' }}>
+              <h1 className='text-4xl sm:text-5xl lg:text-6xl mb-5 text-stone-50' style={{ fontFamily: '"Anton", sans-serif' }}>
                 I'M PATRICK CUETO, YOUR ONE-STOP DEVELOPER.
               </h1>
               <div className='flex mb-5 text-stone-50' style={{ fontFamily: '"Rubik", sans-serif' }}>
@@ -166,12 +166,12 @@ const Home = () => {
       }
 
       {/* You can add content here SECTION 3*/
-        <div style={{ backgroundImage: `url(${Texturebg})` }} className="bg-fixed bg-cover bg-center h-auto w-full p-10 lg:p-20">
+        <div style={{ backgroundImage: `url(${Texturebg})` }} className="bg-scroll md:bg-fixed bg-cover bg-center h-auto w-full p-3 sm:p-6 lg:p-20">
 
           <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr_1fr] gap-6 items-start p-6  from-white to-gray-100">
             {/* WIDE COLUMN (Text & Button) */}
             <div>
-              <h2 className="text-5xl mb-4" style={{ fontFamily: '"Anton", sans-serif' }}>HOW I DO MY WORK.</h2>
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl mb-4" style={{ fontFamily: '"Anton", sans-serif' }}>HOW I DO MY WORK.</h2>
               <p className="text-gray-700 mb-4" style={{ fontFamily: '"Rubik", sans-serif' }}>
                 I follow a structured, client-focused workflow to build websites that are fast, responsive, and aligned with your business goals. From discovery to launch, each stage is designed to ensure clarity, quality, and a smooth experience from start to finish.
               </p>
@@ -279,12 +279,12 @@ const Home = () => {
 
 
       {/* You can add content here SECTION 4*/
-        <div className="bg-cover bg-stone-50 bg-center h-auto w-full p-10 lg:p-20">
+        <div className="bg-cover bg-stone-50 bg-center h-auto w-full p-5 sm:p-8 lg:p-20">
 
           <div className="gap-6 text-center items-start p-1  from-white to-gray-100">
             {/* WIDE COLUMN (Text & Button) */}
             <div>
-              <h2 className="text-5xl mb-4" style={{ fontFamily: '"Anton", sans-serif' }}>ADDITIONAL SERVICES</h2>
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl mb-4" style={{ fontFamily: '"Anton", sans-serif' }}>ADDITIONAL SERVICES</h2>
               <p className="text-gray-700 mb-4" style={{ fontFamily: '"Rubik", sans-serif' }}>
                 Discover other comprehensive solutions I offer to fulfill all your online business development needs.
               </p>
@@ -431,7 +431,7 @@ const Home = () => {
 
 
       {/* You can add content here SECTION 5*/
-        <div style={{ backgroundImage: `url(${Bgfoot})` }} className="bg-cover bg-fixed bg-center h-70vh w-full p-10 lg:p-20">
+        <div style={{ backgroundImage: `url(${Bgfoot})` }} className="bg-cover bg-scroll md:bg-fixed bg-center h-auto w-full p-5 sm:p-8 lg:p-20">
           <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr_1fr] gap-6 items-start p-6  from-white to-gray-100">
             {/* WIDE COLUMN (Text & Button) */}
             <div className="flex-1 p-4">
@@ -442,7 +442,7 @@ const Home = () => {
                 <IoIosStar size={27} />
                 <IoIosStar size={27} />
               </div>
-              <h1 className='text-6xl mb-5 text-stone-50' style={{ fontFamily: '"Anton", sans-serif' }}>
+              <h1 className='text-4xl sm:text-5xl lg:text-6xl mb-5 text-stone-50' style={{ fontFamily: '"Anton", sans-serif' }}>
                 TESTIMONIALS FROM
                 REAL CLIENTS.
               </h1>
@@ -525,7 +525,7 @@ const Home = () => {
 
 
       {/* You can add content here SECTION 6*/
-        <div style={{ backgroundImage: `url(${rmbg})` }} className="bg-cover bg-stone-50 bg-center h-auto lg:pb-[13rem] w-full p-10 lg:p-15">
+        <div style={{ backgroundImage: `url(${rmbg})` }} className="bg-cover bg-stone-50 bg-center h-auto lg:pb-[13rem] w-full p-5 sm:p-8 lg:p-15">
 
           <div className="gap-6 text-center items-start p-1  from-white to-gray-100">
 
@@ -545,7 +545,7 @@ const Home = () => {
 
                     <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className="rounded-lg text-start">
                       {/* section 1 skills */}
-                      <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-8 lg:grid-cols-8 gap-1'>
+                      <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 gap-1'>
                         <div data-aos="fade-down-right" data-aos-delay="500" className='hover:animate-bouncing p-1 sm:p-1 md:p-5 lg:p-5 rounded-sm'>
 
                           <img
@@ -623,7 +623,7 @@ const Home = () => {
 
 
                       {/* section 2 skills */}
-                      <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-8 lg:grid-cols-8 gap-1'>
+                      <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 gap-1'>
                         <div data-aos="fade-right" data-aos-delay="500" className='hover:animate-bouncing p-1 sm:p-1 md:p-5 lg:p-5 rounded-sm'>
 
                           <img

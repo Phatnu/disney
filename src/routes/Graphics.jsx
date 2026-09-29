@@ -65,7 +65,7 @@ const Graphics = () => {
   }, []);
 
   return (
-    <div className='mt-20'>
+    <div className='mt-28'>
       <div
         style={{ backgroundImage: `url(${Techimage})` }}
         className='flex min-h-[420px] items-center justify-center bg-cover bg-fixed bg-center w-full p-8 md:p-12 lg:p-20'
