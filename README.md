@@ -18,3 +18,5 @@ If you are developing a production application, we recommend using TypeScript wi
 ## Contact Form
 
 The contact form sends messages with EmailJS. Copy `.env.example` to `.env.local` and fill in the service ID, template ID, and public key from your EmailJS account. Set the EmailJS template recipient to `cuetopatrick91@gmail.com` and use the form variables `name`, `email`, `subject`, and `message`. Configure the template's reply-to field as `{{email}}`.
+
+For Vercel deployments, add `VITE_EMAILJS_SERVICE_ID`, `VITE_EMAILJS_TEMPLATE_ID`, and `VITE_EMAILJS_PUBLIC_KEY` under **Project Settings > Environment Variables**, using the values from `.env.local`. Select the deployment environments you use, then redeploy so Vite can include them in the build. Do not commit `.env.local`; it is intentionally ignored by Git.
