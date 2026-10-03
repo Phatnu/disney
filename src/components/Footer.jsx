@@ -6,13 +6,13 @@ import bgfooter from '../assets/bgfooter2.jpg';
 
 const Footer = () => {
   return (
-<footer style={{ backgroundImage: `url(${bgfooter})` }} className="bg-white dark:bg-stone-900 bg-cover">
+<footer style={{ backgroundImage: `url(${bgfooter})` }} className="site-footer bg-white dark:bg-stone-900 bg-cover">
 
   <div className="h-auto w-full flex justify-center items-center"> 
     <div style={{ backgroundImage: `url(${Texturebg})` }} className='shadow- shadow-neutral-400 bg-cover bg-center bg-no-repeat flex justify-center items-center h-full w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-0 md:-mt-20 lg:-mt-28'>
                  <div className='text-center my-10'>
-                   <h2 className="mb-4 text-3xl sm:text-4xl lg:text-5xl" style={{ fontFamily: '"Anton", sans-serif' }}>READY TO WORK TOGETHER?</h2>
-                   <p className="text-gray-700 mb-4" style={{ fontFamily: '"Rubik", sans-serif' }}>
+                   <h2 className="mb-4 text-3xl text-gray-900 dark:text-white sm:text-4xl lg:text-5xl" style={{ fontFamily: '"Anton", sans-serif' }}>READY TO WORK TOGETHER?</h2>
+                   <p className="mb-4 text-gray-700 dark:text-gray-200" style={{ fontFamily: '"Rubik", sans-serif' }}>
                  Tell me about your project
                    </p>
                                  <div className="sm:flex-block lg:flex gap-2 justify-center">
@@ -349,29 +349,9 @@ const Footer = () => {
     </div>
 
     <div className="mt-12 border-t border-gray-100 pt-6 dark:border-gray-800">
-      <div className="text-center sm:flex sm:justify-between sm:text-left">
+      <div className="text-center">
         <p className="text-sm text-gray-500 dark:text-gray-400">
-          <span className="block sm:inline">All rights reserved.</span>
-
-          <a
-            className="inline-block text-red-600 underline transition hover:text-red-600/75 dark:text-red-500 dark:hover:text-stone-50"
-            href="#"
-          >
-            Terms & Conditions
-          </a>
-
-          <span>&middot;</span>
-
-          <a
-            className="inline-block text-teal-600 underline transition hover:text-teal-600/75 dark:text-red-500 dark:hover:text-stone-50"
-            href="#"
-          >
-            Privacy Policy
-          </a>
-        </p>
-
-        <p className="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0 dark:text-gray-400">
-          &copy; 2026 Company Name
+          &copy; 2026 Patrick Cueto. All rights reserved.
         </p>
       </div>
     </div>

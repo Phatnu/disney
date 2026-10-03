@@ -1,9 +1,7 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useEffect, useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import Home from './routes/Home';
 import Contact from './routes/Contact';
 import Projects from './routes/Projects';
@@ -17,11 +15,56 @@ import Services from './routes/Services';
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  const { pathname } = useLocation();
+  const [isIntroVisible, setIsIntroVisible] = useState(
+    () => sessionStorage.getItem('portfolioIntroSeen') !== 'true',
+  );
+  const [isIntroLeaving, setIsIntroLeaving] = useState(false);
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [pathname]);
+
+  useEffect(() => {
+    if (!isIntroVisible) return undefined;
+
+    const timer = window.setTimeout(() => setIsIntroLeaving(true), 1900);
+    return () => window.clearTimeout(timer);
+  }, [isIntroVisible]);
+
+  const finishIntro = (event) => {
+    if (event.target !== event.currentTarget || !isIntroLeaving) return;
+
+    sessionStorage.setItem('portfolioIntroSeen', 'true');
+    setIsIntroVisible(false);
+  };
 
   return (
     <>
-      <div className="min-h-screen flex flex-col overflow-x-clip bg-white-50">
+      {isIntroVisible && (
+        <div
+          className={`site-intro${isIntroLeaving ? ' site-intro--leaving' : ''}`}
+          role="status"
+          aria-live="polite"
+          onAnimationEnd={finishIntro}
+        >
+          <div className="site-intro__content">
+            <p className="site-intro__name">PATRICK CUETO</p>
+            <p className="site-intro__label">PORTFOLIO LOADING</p>
+            <div className="site-intro__progress" aria-hidden="true">
+              <span />
+            </div>
+            <button
+              className="site-intro__skip"
+              type="button"
+              onClick={() => setIsIntroLeaving(true)}
+            >
+              Skip intro
+            </button>
+          </div>
+        </div>
+      )}
+      <div className="min-h-screen flex flex-col overflow-x-clip bg-white text-slate-900 transition-colors duration-300 dark:bg-zinc-950 dark:text-stone-100">
 <Navbar />
 <Routes>
 <Route path='/' element={<Home />} />

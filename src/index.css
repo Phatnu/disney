@@ -1,3 +1,58 @@
 @import "tailwindcss";
 
 @plugin "@midudev/tailwind-animations";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html.dark {
+	color-scheme: dark;
+}
+
+html.dark,
+html.dark body,
+html.dark #root {
+	background-color: #111827;
+	color: #f3f4f6;
+}
+
+footer.site-footer {
+	color: #f3f4f6;
+}
+
+footer.site-footer > div:last-of-type [class*="text-gray-"] {
+	color: #e5e7eb !important;
+}
+
+html.dark [style*="background-image"] {
+	background-color: rgb(17 24 39 / 82%);
+	background-blend-mode: multiply;
+}
+
+html.dark [class~="bg-white"]:not([class*="dark:bg-"]),
+html.dark [class~="bg-gray-50"],
+html.dark [class~="bg-stone-50"],
+html.dark [class~="bg-stone-100"],
+html.dark [class~="bg-gray-100"],
+html.dark [class~="bg-slate-50"],
+html.dark [class~="bg-slate-100"],
+html.dark [class~="bg-[#f5f5f3]"],
+html.dark [class~="bg-[#f1f1f1]"] {
+	background-color: #1f2937 !important;
+}
+
+html.dark [class~="text-black"],
+html.dark [class~="text-gray-900"],
+html.dark [class~="text-gray-800"],
+html.dark [class~="text-gray-700"],
+html.dark [class~="text-gray-600"],
+html.dark [class~="text-gray-500"],
+html.dark [class~="text-slate-900"],
+html.dark [class~="text-slate-600"] {
+	color: #e5e7eb !important;
+}
+
+html.dark [class~="border-gray-300"],
+html.dark [class~="border-stone-200"],
+html.dark [class~="border-stone-300"] {
+	border-color: #4b5563 !important;
+}

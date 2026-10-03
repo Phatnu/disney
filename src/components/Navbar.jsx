@@ -6,11 +6,20 @@ import { MdEmail } from "react-icons/md";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaGithub, FaXTwitter } from "react-icons/fa6";
+import { FiMoon, FiSun } from 'react-icons/fi';
 
 const Navbar = () => {
   const [isProjectsOpen, setIsProjectsOpen] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(() => localStorage.getItem('theme') === 'dark');
   const mobileMenuRef = useRef(null);
   const location = useLocation();
+
+  useEffect(() => {
+    document.documentElement.classList.toggle('dark', isDarkMode);
+    localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+  }, [isDarkMode]);
+
+  const toggleTheme = () => setIsDarkMode((currentMode) => !currentMode);
 
   // Toggle the mobile menu visibility
   const toggleMenu = () => {
@@ -77,6 +86,15 @@ const Navbar = () => {
 
           {/* Desktop Menu + Button */}
           <div className="hidden lg:flex items-center gap-6">
+            <button
+              type="button"
+              onClick={toggleTheme}
+              aria-label={`Switch to ${isDarkMode ? 'light' : 'dark'} mode`}
+              title={`Switch to ${isDarkMode ? 'light' : 'dark'} mode`}
+              className="rounded-sm p-2 text-gray-700 transition hover:bg-gray-100 dark:text-white dark:hover:bg-gray-800"
+            >
+              {isDarkMode ? <FiSun size={20} /> : <FiMoon size={20} />}
+            </button>
             <nav aria-label="Global">
               <ul className="flex items-center gap-6 text-sm" style={{ fontFamily: '"Rubik", sans-serif' }}>
                 {['home', 'about','services', 'contact'].map((page) => (
@@ -131,7 +149,16 @@ const Navbar = () => {
           </div>
 
           {/* Mobile Burger Button */}
-          <div className="lg:hidden">
+          <div className="flex items-center gap-2 lg:hidden">
+            <button
+              type="button"
+              onClick={toggleTheme}
+              aria-label={`Switch to ${isDarkMode ? 'light' : 'dark'} mode`}
+              title={`Switch to ${isDarkMode ? 'light' : 'dark'} mode`}
+              className="rounded-sm p-2 text-gray-700 transition hover:bg-gray-100 dark:text-white dark:hover:bg-gray-800"
+            >
+              {isDarkMode ? <FiSun size={20} /> : <FiMoon size={20} />}
+            </button>
             <button
               onClick={toggleMenu}
               className="block rounded-sm bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75 dark:bg-gray-800 dark:text-white dark:hover:text-red-500"
