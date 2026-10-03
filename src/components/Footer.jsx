@@ -1,5 +1,5 @@
 import React from 'react'
-import logo2 from '../assets/plogo.jpg';
+import PatrickLogo from '../assets/PatrickLogo.png';
 import bgImage from '../assets/banner_bg.jpg';
 import Texturebg from '../assets/texture_bg2.jpg';
 import bgfooter from '../assets/bgfooter2.jpg';
@@ -51,7 +51,13 @@ const Footer = () => {
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
       <div>
         <div className="flex justify-center text-teal-600 sm:justify-start dark:text-teal-300">
- <img src={logo2} alt="logo" className="h-10" />
+          <span className="flex h-10 w-10 items-center justify-center rounded-full bg-white dark:bg-transparent">
+            <img
+              src={PatrickLogo}
+              alt="Patrick Cueto"
+              className="h-8 w-8 object-contain invert dark:invert-0"
+            />
+          </span>
         </div>
 
         <p

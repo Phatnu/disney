@@ -46,7 +46,7 @@ const Website = () => {
       });
     }, []);
   return (
-    <div className='mt-28'>
+    <div className='website-page mt-28'>
             {/* You can add content here SECTION 1*/
               <div style={{ backgroundImage: `url(${bgImage})` }} className="bg-cover bg-center h-auto w-full p-5 sm:p-8 lg:p-20">
                 <div className="flex flex-col lg:flex-row gap-4 items-center">
@@ -398,7 +398,7 @@ A responsive web app built with PHP, MySQL, JavaScript, and Bootstrap to streaml
      data-aos-delay="300"
       src={phone1}
       alt="Image1"
-      className="w-full h-full object-cover rounded-lg hover:animate-pulse"
+      className="w-full h-full object-cover rounded-3xl hover:animate-pulse"
     />
   </div>
 
@@ -407,7 +407,7 @@ A responsive web app built with PHP, MySQL, JavaScript, and Bootstrap to streaml
 data-aos-delay="600"
       src={phone2}
       alt="Image1"
-      className="w-full h-full object-cover rounded-lg hover:animate-pulse"
+      className="w-full h-full object-cover rounded-3xl hover:animate-pulse"
     />
   </div>
       <div className="p-0 ">
@@ -415,7 +415,7 @@ data-aos-delay="600"
 data-aos-delay="900"
       src={phone11}
       alt="Image1"
-      className="w-full h-full object-cover rounded-lg hover:animate-pulse"
+      className="w-full h-full object-cover rounded-3xl hover:animate-pulse"
     />
   </div>
 
@@ -424,7 +424,7 @@ data-aos-delay="900"
 data-aos-delay="1200"
       src={phone4}
       alt="Image1"
-      className="w-full h-full object-cover rounded-lg hover:animate-pulse"
+      className="w-full h-full object-cover rounded-3xl hover:animate-pulse"
     />
   </div>
     <div className="p-0 ">
@@ -432,7 +432,7 @@ data-aos-delay="1200"
 data-aos-delay="1500"
       src={phone5}
       alt="Image1"
-      className="w-full h-full object-cover rounded-lg hover:animate-pulse"
+      className="w-full h-full object-cover rounded-3xl hover:animate-pulse"
     />
   </div>
   
@@ -444,7 +444,7 @@ data-aos-delay="1500"
      data-aos-delay="300"
       src={phone6}
       alt="Image1"
-      className="w-full h-full object-cover rounded-lg hover:animate-pulse"
+      className="w-full h-full object-cover rounded-3xl hover:animate-pulse"
     />
   </div>
 
@@ -453,7 +453,7 @@ data-aos-delay="1500"
 data-aos-delay="600"
       src={phone7}
       alt="Image1"
-      className="w-full h-full object-cover rounded-lg hover:animate-pulse"
+      className="w-full h-full object-cover rounded-3xl hover:animate-pulse"
     />
   </div>
       <div className="p-0 ">
@@ -461,7 +461,7 @@ data-aos-delay="600"
 data-aos-delay="900"
       src={phone8}
       alt="Image1"
-      className="w-full h-full object-cover rounded-lg hover:animate-pulse"
+      className="w-full h-full object-cover rounded-3xl hover:animate-pulse"
     />
   </div>
 
@@ -470,7 +470,7 @@ data-aos-delay="900"
 data-aos-delay="1200"
       src={phone9}
       alt="Image1"
-      className="w-full h-full object-cover rounded-lg hover:animate-pulse"
+      className="w-full h-full object-cover rounded-3xl hover:animate-pulse"
     />
   </div>
     <div className="p-0 ">
@@ -478,7 +478,7 @@ data-aos-delay="1200"
 data-aos-delay="1500"
       src={phone10}
       alt="Image1"
-      className="w-full h-full object-cover rounded-lg hover:animate-pulse"
+      className="w-full h-full object-cover rounded-3xl hover:animate-pulse"
     />
   </div>
   
@@ -491,7 +491,7 @@ data-aos-delay="1500"
      data-aos-delay="300"
       src={phone3}
       alt="Image1"
-      className="w-full h-full object-cover rounded-lg hover:animate-pulse"
+      className="w-full h-full object-cover rounded-3xl hover:animate-pulse"
     />
   </div>
 {/* 

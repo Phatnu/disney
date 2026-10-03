@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import logo2 from '../assets/plogo.jpg';
+import PatrickLogo from '../assets/PatrickLogo.png';
 import { FaPhoneSquare } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaSquareFacebook } from "react-icons/fa6";
@@ -81,7 +81,11 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/home" className="block text-teal-600 dark:text-teal-300">
             <span className="sr-only">Home</span>
-            <img src={logo2} alt="logo" className="h-10" />
+            <img
+              src={PatrickLogo}
+              alt="Patrick Cueto"
+              className="h-9 w-9 object-contain invert dark:invert-0 sm:h-10 sm:w-10"
+            />
           </Link>
 
           {/* Desktop Menu + Button */}

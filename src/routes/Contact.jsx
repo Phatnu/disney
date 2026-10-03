@@ -38,7 +38,7 @@ const Contact = () => {
     };
 
     return (
-        <div className='mt-28'>
+        <div className='contact-page mt-28'>
             {['success', 'error', 'configuration-error'].includes(submissionStatus) && (
                 <div
                     role={submissionStatus === 'success' ? 'status' : 'alert'}
